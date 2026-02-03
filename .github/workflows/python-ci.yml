@@ -15,7 +15,7 @@ steps:
   with:
    python-version: '3.11'
  - name: Install dependencies (optional)
-   run: |
+  run: |
    pip install pytest 
 - name: Run tests
   run: |
